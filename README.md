@@ -1,5 +1,16 @@
 # SAML: Adaptive sGNN - based optimization model for eliminating scanner-shift bias
 
+
+
+**Recruiters & Hiring Managers:**
+I am happy to walk through the architecture, code structure, and implementation details during an interview. Please contact me directly:
+
+
+**Email:** vpharrish101@gmail.com
+
+**LinkedIn:** https://www.linkedin.com/in/vp-harrish-249651275/
+
+
 > **Status:** Research Paper pending submission. Code currently private.
 
 > **Domain:** Computer Vision, Medical Imaging (fMRI), Graph Neural Networks, Optimization Learners.
@@ -41,10 +52,3 @@ We solve this issue, by integrating methods and tricks of mmaking the model lear
 *This project is part of an ongoing research thesis intended for journal publication.* To maintain the integrity of the peer-review process, the source code is currently hosted in a **private repository**.
 
 
-**Recruiters & Hiring Managers:**
-I am happy to walk through the architecture, code structure, and implementation details during an interview. Please contact me directly:
-
-
-**Email:** vpharrish101@gmail.com
-
-**LinkedIn:** https://www.linkedin.com/in/vp-harrish-249651275/
