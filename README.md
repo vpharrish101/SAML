@@ -9,6 +9,7 @@
 
 ## The Problem
 
+* **TL;DR**: Hospital scanners produce different data for same patient. This confuses DL model while training. We solve it by a novel methodology.
 The issue is: -
   1. Different hospital scanners have different sensitivites and intensities of measuring scans.
         -> For ex, in functional MRI, the mapped blood oxygen levels for a human brain will have different values and measurements, across different scanner.
@@ -17,14 +18,13 @@ The issue is: -
   3. But The harmonizations themselves comes with tradeoffs, such as losing precious signals, and full retraining of the model for every new scanner type added.
 
 * **Analogy:** It's like taking a photo of the same object with a Canon and a Nikon; the colors and lighting look different even if the object is the same.
-* **TL;DR**: Hospital scanners produce different data for same patient. This confuses DL model while training. We solve it by a novel methodology.
 
 
 
 ## The Solution
 We solve this issue, by integrating methods and tricks of mmaking the model learn underlying repeating patterns, and robustly generalizing the model, without any sort of data preprocessing. 
   1. Our model allows new sites to be integrated without full retraining, reducing training time by a lot.
-  2. The system is designed to be "plug-and-play" for new hospitals without requiring a machine learning engineer to retrain the model from scratch.
+  2. The system is designed to be "plug-and-play" for new hospitals without requiring a ML engineer to retrain the model from scratch.
 
 
 
@@ -45,4 +45,5 @@ I am happy to walk through the architecture, code structure, and implementation 
 
 
 **Email:** vpharrish101@gmail.com
+
 **LinkedIn:** https://www.linkedin.com/in/vp-harrish-249651275/
