@@ -15,12 +15,16 @@ The issue is: -
   3. But The harmonizations themselves comes with tradeoffs, such as losing precious signals, and full retraining of the model for every new scanner type added.
 
 * **Analogy:** It's like taking a photo of the same object with a Canon and a Nikon; the colors and lighting look different even if the object is the same.
+* **TL;DR**: Hospital scanners produce different data for same patient. This confuses DL model while training. We solve it by a novel methodology.
+
 
 
 ## The Solution
 We solve this issue, by integrating methods and tricks of mmaking the model learn underlying repeating patterns, and robustly generalizing the model, without any sort of data preprocessing. 
-  1. Our model allows new sites to be integrated without full retraining, reducing training time by over 90%.
+  1. Our model allows new sites to be integrated without full retraining, reducing training time by a lot.
   2. The system is designed to be "plug-and-play" for new hospitals without requiring a machine learning engineer to retrain the model from scratch.
+
+
 
 ## Tech Stack
 * **Languages:** Python
@@ -29,11 +33,14 @@ We solve this issue, by integrating methods and tricks of mmaking the model lear
 * **DevOps/Tracking:** MLflow (Experiment Tracking)
 
 
+
 ##  Code Access
 *This project is part of an ongoing research thesis intended for journal publication.* To maintain the integrity of the peer-review process, the source code is currently hosted in a **private repository**.
 
+
 **Recruiters & Hiring Managers:**
 I am happy to walk through the architecture, code structure, and implementation details during an interview. Please contact me directly:
+
 
 📧 **Email:** vpharrish101@gmail.com
 🔗 **LinkedIn:** https://www.linkedin.com/in/vp-harrish-249651275/
