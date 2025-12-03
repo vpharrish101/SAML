@@ -4,6 +4,8 @@
 
 > **Domain:** Computer Vision, Medical Imaging (fMRI), Graph Neural Networks, Optimization Learners
 
+>*Please note that results, accuracies and optimization results are intentionally redacted/not reported to preserve work data* 
+
 
 ## The Problem
 
@@ -42,5 +44,5 @@ We solve this issue, by integrating methods and tricks of mmaking the model lear
 I am happy to walk through the architecture, code structure, and implementation details during an interview. Please contact me directly:
 
 
-📧 **Email:** vpharrish101@gmail.com
-🔗 **LinkedIn:** https://www.linkedin.com/in/vp-harrish-249651275/
+**Email:** vpharrish101@gmail.com
+**LinkedIn:** https://www.linkedin.com/in/vp-harrish-249651275/
