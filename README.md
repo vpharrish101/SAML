@@ -1,4 +1,4 @@
-# SAML: Cross-Site Generalization for Medical AI
+# SAML: Adaptive sGNN - based optimization model for eliminating scanner-shift bias
 
 > **Status:** Research Paper pending submission. Code currently private.
 
