@@ -2,7 +2,7 @@
 
 > **Status:** Research Paper pending submission. Code currently private.
 
-> **Domain:** Computer Vision, Medical Imaging (fMRI), Graph Neural Networks, Optimization Learners
+> **Domain:** Computer Vision, Medical Imaging (fMRI), Graph Neural Networks, Optimization Learners.
 
 >*Please note that results, accuracies and optimization results are intentionally redacted/not reported to preserve work data* 
 
