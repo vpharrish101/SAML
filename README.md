@@ -9,7 +9,8 @@
 
 ## The Problem
 
-* **TL;DR**: Hospital scanners produce different data for same patient. This confuses DL model while training. We solve it by a novel methodology.
+* **TL;DR**: Hospital scanners produce different data for same patient. This confuses DL model while training. We solve it by an unconventional methodology.
+  
 The issue is: -
   1. Different hospital scanners have different sensitivites and intensities of measuring scans.
         -> For ex, in functional MRI, the mapped blood oxygen levels for a human brain will have different values and measurements, across different scanner.
