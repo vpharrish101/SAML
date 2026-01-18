@@ -20,7 +20,7 @@ I am happy to walk through the architecture, code structure, and implementation 
 
 ## The Problem
 
-* **TL;DR**: Hospital scanners produce different data for same patient. This confuses DL model while training. We solve it by an unconventional methodology.
+* **TL;DR**: Hospital scanners produce different data 'noise' for same patient. This confuses DL model while training. We solve it by disrupting those 'noise'.
   
 The issue is: -
   1. Different hospital scanners have different sensitivites and intensities of measuring scans.
