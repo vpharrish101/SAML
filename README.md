@@ -36,8 +36,9 @@ The issue is: -
 ## Our Approach
   1. We approached this issue by using Model Agnostic Meta Learning (MAML), a Hessian matrix based training algorithm. The core idea is, exposing the model to lots of different sites at once, and modelling the loss will poteltially let the model ignore additive noise and learn the underlying signals underneath.
   2. This approach, however did not work while tested in Leave-One-Site-Out tests, as the model instead optimized for all of the trained sites. Our preliminary takeaway is that, a geometric level manipulation is needed to change the loss landscape to stop prioritizing scanner site artifacts.
-  3. We now sample and project the scan data in log-spaced frequencies(s=0.1,1,10), using spectral Random Fourier Features(RFF) and let a learned gate decide which of the 3 projections contain the most signal. RFF here is used as a helper for GNN, so the final weight of RFF contribution is also learnt.
-  4. This approach showed success in nearly all synthetic dataset sites with varying noise level, and positive oberstations in real life data (More info on the thesis paper.)
+  3. Since scanner noise is structured (meaning it is consistent for all patients from a particular site), we disrupt that geometry itself, by randomly projecting it. The intuition is, the scanner noise that is consistent on each patient at a site is now disrupted, forcing the model to rely less on noise.
+  4.  We now sample and project the scan data in log-spaced frequencies(s=0.1,1,10), using spectral Random Fourier Features(RFF) and let a learned gate decide which of the 3 projections contain the most signal. RFF here is used as a helper for GNN, so the final weight of RFF contribution is also learnt.
+  5. This approach showed success in nearly all synthetic dataset sites with varying noise level, and positive oberstations in real life data (More info on the thesis paper.)
 
 ## Tech Stack
 * **Languages:** Python
