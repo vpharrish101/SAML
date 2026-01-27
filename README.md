@@ -1,5 +1,9 @@
 # SAML: Adaptive sGNN - based optimization model for eliminating scanner-shift bias
 
+Project aim: This project focuses on 2 main things: -
+  1. Designing a Graph Neural Network for analysing neural activity within brain.
+  2. Showing that specialized preprocessing for data is as important as the architecture itself.
+
 
 
 **Recruiters & Hiring Managers:**
