@@ -22,9 +22,10 @@ I am happy to walk through the architecture, code structure, and implementation 
 >*Please note that results, accuracies and optimization results are intentionally redacted/not reported to preserve work data* 
 
 
-## The Problem
+## The Problem and The Solution
 
 * **TL;DR**: Hospital scanners produce different data 'noise' for same patient. This confuses DL model while training. We solve it by disrupting those 'noise'.
+* **TL;DR**: Since the 'noise' is same-y for all patients from a particular scanner, we destroy that similarity by geometrically reshaping the data, with embedded randomness.
   
 The issue is: -
   1. Different hospital scanners have different sensitivites and intensities of measuring scans.
@@ -36,10 +37,8 @@ The issue is: -
 * **Analogy:** It's like taking a photo of the same object with a Canon and a Nikon; the colors and lighting look different even if the object is the same.
 
 
-
 ## Our Approach
 
-* **TL;DR**: Since the 'noise' is same-y for all patients from a particular scanner, we destroy that similarity by geometrically reshaping the data, with embedded randomness.
 
 We solve this by: -
   1. We approached this issue by using Model Agnostic Meta Learning (MAML), a Hessian matrix based training algorithm. The core idea is, exposing the model to lots of different sites at once, and modelling the loss will poteltially let the model ignore additive noise and learn the underlying signals underneath.
