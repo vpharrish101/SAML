@@ -3,8 +3,8 @@
 Official PyTorch Implementation of 'Geometric Destabilization of Noise in rs-fMRI' (Under Review).
 
 Project aim: This project focuses on 2 main things: -
-  1. Designing a Graph Neural Network for analysing neural activity within brain.
-  2. Showing that specialized preprocessing for data is as important as the architecture itself.
+  1. Designing a Graph Neural Network that operates on random feature space, for analysing neural activity within brain.
+  2. Analyzing and building a robust architecture to decohere the highly intertwined scanner fingerprints from underlying neural signals.
 
 
 
