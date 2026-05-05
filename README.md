@@ -1,6 +1,7 @@
 # SAML: Adaptive sGNN - based optimization model for eliminating scanner-shift bias
 
 Official PyTorch Implementation of 'Geometric Destabilization of Noise in rs-fMRI' (Under Review).
+Paper: https://anonymous.4open.science/r/SAML-ra-D151/README.md
 
 Project aim: This project focuses on 2 main things: -
   1. Designing a Graph Neural Network that operates on random feature space, for analysing neural activity within brain.
